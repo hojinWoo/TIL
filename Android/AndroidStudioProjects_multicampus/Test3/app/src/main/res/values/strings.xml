@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Test3</string>
-
-    <string name="Recorder">Audio recording</string>
-    <string name="Start">START</string>
-    <string name="Stop">STOP</string>
-    <string name="Play">PLAY</string>
-</resources>
