@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="saying">
+        <item>언제까지 맨날 하기 싫어할 거니</item>
+        <item>말만 하지 말고 실천 좀 해</item>
+        <item>핸드폰 그만 보고 공부나 해</item>
+        <item>잘 때 빼고는 침대에 눕지 말자 어차피 안하잖아..</item>
+        <item>벌써 24인데 너무나 한 것이 부족하잖아</item>
+        <item>정신 다시 차리고 공부 하자</item>
+        <item>돈 벌지 않으면 어떻게 사려고 그려니</item>
+        <item>수학!! 영어!! 컴퓨터!!</item>
+        <item>매일 결심하고 안하면 무슨 소용이야</item>
+        <item>도데체 너 어떻게 살려고 그러냐..</item>
+    </string-array>
+</resources>

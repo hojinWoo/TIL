@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/dpt"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Departure Point"
+            android:cursorVisible="false"
+            android:clickable="false"
+            android:layout_weight="0.49" />
+
+        <EditText
+            android:id="@+id/dptInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:cursorVisible="false"
+            android:clickable="false"
+            android:inputType="textPersonName"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/dst"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Destination"
+            android:cursorVisible="false"
+            android:clickable="false"
+            android:layout_weight="0.58" />
+
+        <EditText
+            android:id="@+id/dstInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.21"
+            android:ems="10"
+            android:cursorVisible="false"
+            android:clickable="false"
+            android:inputType="textPersonName"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/minPrice"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:cursorVisible="false"
+            android:clickable="false"
+            android:hint="Min Price" />
+
+        <EditText
+            android:id="@+id/maxPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.41"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:cursorVisible="false"
+            android:clickable="false"
+            android:hint="Max Price" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/servPeriod"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.58"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:cursorVisible="false"
+            android:clickable="false"
+            android:text="Period" />
+
+        <EditText
+            android:id="@+id/periodInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.21"
+            android:cursorVisible="false"
+            android:clickable="false"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/driverName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:hint="Driver Name" />
+
+    <EditText
+        android:id="@+id/carInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Car Information"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/career"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Driver Career"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/driverRate"
+            android:layout_width="129dp"
+            android:layout_height="56dp"
+            android:layout_weight="1.73"
+            android:ems="10"
+            android:cursorVisible="false"
+            android:clickable="false"
+            android:inputType="textPersonName"
+            android:text="Driver Rate" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="0.2" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/comments"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:ems="10"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:hint="There's no comments" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/selectButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">P211</string>
+    <string name="id">ID</string>
+    <string name="input_id">Input ID</string>
+    <string name="pwd">PWD</string>
+    <string name="input_password">Input Password</string>
+    <string name="login">LOGIN</string>
+</resources>

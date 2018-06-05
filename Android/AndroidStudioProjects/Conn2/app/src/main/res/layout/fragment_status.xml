@@ -1,0 +1,283 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dnghwls7.conn.StatusFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="엔진 상태"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/settext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:visibility="invisible"
+                android:text="양호"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TPMS"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/settext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="낮음"
+                android:gravity="right"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="에어백"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/settext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="양호"
+                android:gravity="right"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABS 경고등"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/settext4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="양호"
+                android:gravity="right"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="발전기 상태"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/settext6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="양호"
+                android:gravity="right"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="예열 상태"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/settext7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="낮음"
+                android:gravity="right"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="실린더 상태"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/settext8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="양호"
+                android:gravity="right"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="타이어 기압"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/settext11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="낮음"
+                android:gravity="right"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="방향등"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/settext9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="이상 무"
+                android:gravity="right"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="브레이크 LED"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/settext10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="양호"
+                android:gravity="right"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="브레이크 라이닝"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/settext5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="보통"
+                android:gravity="right"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
