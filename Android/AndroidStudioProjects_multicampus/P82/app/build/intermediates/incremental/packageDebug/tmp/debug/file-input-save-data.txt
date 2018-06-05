@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Mon Apr 09 15:44:19 KST 2018
+1.base=C\:\\Android\\AndroidStudioProjects\\P82\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Android\\AndroidStudioProjects\\P82\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\26
+1.path=classes.dex
