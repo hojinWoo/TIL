@@ -349,15 +349,16 @@ puts result #50
 - 생성
 
   ```ruby
+  #key와 ':'는 띄어쓰기 하지 말 것, 붙여서 써야 한다
   hash1 = {"key" => value}
   
   # key (symbol) & hash rocket
   hash2 = {:key => value}
   
-  hash3 = {key : value}
-  
+  hash3 = {key: value} 
+   
   # 3가지를 혼합해서 사용해도 가능
-  hash0 = {name : "hojin", :age => 26, "live" => youngin}
+  hash0 = {name: "hojin", :age => 26, "live" => youngin}
   
   # 0을 return
   h0 = Hash.new(0)
