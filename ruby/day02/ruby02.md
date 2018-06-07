@@ -37,11 +37,13 @@ array = [1,2,3]
 
 print array
 #[1,2,3] => nil
+
 puts array
 #1
 #2
 #3
 # => nil
+
 p array 
 #[1,2,3]
 # => [1,2,3]
@@ -118,3 +120,53 @@ puts result #50
 
 ### 1. Ruby functions / Methods
 
+
+
+- 대부분의 언어
+
+  - class 밖 : function
+  - class 안 : methods
+
+- 루비에서는 모든 function은 method (ruby에서는 function 말 사용 X)
+  (cf. ruby는 arg가 없는 경우 ()를 생략을 많이 한다..)
+
+  ```ruby
+  # Declare method
+  
+  # <ex1>
+  def simple
+      puts "hello simple"
+  end
+  simple #hello simple
+  
+  # <ex2>
+  def simple()
+      puts "hello simple"
+  end
+  ```
+
+- return 키워드 선택적으로 사용 가능
+
+  ```ruby
+  # <ex1>
+  def add(a,b)
+      return a+b
+  end
+  add 1,2  #3
+  
+  # <ex2>
+  def add2(a,b)
+      a+b
+  end
+  add2(4,5) #9
+  
+  # <ex3>
+  def divide(a,b)
+      return "I don't know" if b==0
+      a/b
+  end
+  divide(4,0) #I don't know
+  divide(4,2) #2
+  ```
+
+  
