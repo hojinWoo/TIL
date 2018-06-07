@@ -29,7 +29,10 @@ $ git remote add origin https://github.com/hojinWoo/TIL.git
 $ git remote -v
 
 
-# push : github upload
+# first push : github upload
 $ git push -u origin master
+
+# 등록된 곳으로 push가 된다
+$ git push
 ```
 

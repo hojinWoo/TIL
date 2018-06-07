@@ -118,7 +118,25 @@ puts result #50
   # hi hojin
   ```
 
-  
+
+
+#### Inclusive and Exclusive Ranges
+
+```ruby
+#... : don't include the highest number in the range
+for num in 1...5
+    print num
+end
+#1234
+
+#.. : include the highest number in the range
+for num in 1..5
+    print num
+end
+#12345
+```
+
+
 
 ### 1. Ruby functions / Methods
 
