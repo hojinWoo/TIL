@@ -1,5 +1,7 @@
 # 멋쟁이 사자처럼 2일차 
 
+ruby : 2.4.0
+
 cf) 멋사는 코드 아카데미를 적극 추천한다. 
 
 (기본 구문 및 내용 다시 참고하려면 code academy 다시 볼 것)
@@ -266,6 +268,10 @@ puts result #50
 
 ### 2. String
 
+- https://ruby-doc.org/core-2.4.0/String.html
+
+  
+
 - Single quote vs Double quote
 
   ```ruby
@@ -273,12 +279,14 @@ puts result #50
   a = 'hello everyone\n welcome'
   puts a #hello everyone\\n welcome
   
-  # double quote
+  # double quote cf. %Q{}로도 쓸 수 있다..
   b = "hello everyone\nwelcome"
   puts b
   #hello everyone
   #welcome
   
+  hi = %Q{hihi}
+  puts hi #hihi
   
   name = "hojin"
   puts '이 글 쓴 사람의 이름은 #{name}입니다.'
@@ -287,13 +295,90 @@ puts result #50
   #이 글 쓴 사람의 이름은 hojin입니다.
   ```
 
+- #### ! 사용
+
+  객체를 바꾼다.
+
   
 
+- #### Symbol
+
+  - ':' 
+
+  - 문자열을 아니다
+
+  - 고유(unique)하고 변경이 불가능
+
+  - String과 서로 변환 가능
+
+  - Pointer와 약간 비슷하다
+
+    
+
+### 3. Array
+
+  - https://ruby-doc.org/core-2.4.0/Array.html
+
+  - 동적 할당
+
+  - 생성
+    - [obj1, obj2, ...]
+    - Arrays.new(len)
+    - %w {str1, str2}
+    - 생성시 이질적 배열 (Heterogeneous arrays)으로 사능
+
+  - python과 같이 음수 및 범위 (range)로 index 쓸 수 있다
+
+  - 추가 
+
+    - <<
+    - .push
+
+  - 삭제
+
+    - .pop  (가장 오른쪽에 있는 것)
+    - .shift (가장 왼쪽에 있는 것)
 
 
 
 
+### 4. Hash
+
+- key - value로 구성
+
+- 생성
+
+  ```ruby
+  hash1 = {"key" => value}
+  
+  # key (symbol) & hash rocket
+  hash2 = {:key => value}
+  
+  hash3 = {key : value}
+  
+  # 3가지를 혼합해서 사용해도 가능
+  hash0 = {name : "hojin", :age => 26, "live" => youngin}
+  
+  # 0을 return
+  h0 = Hash.new(0)
+  
+  # 반복문
+  hash0.each do |k,v|
+      puts "#{k} : #{v}"
+  end
+  ```
+
+- index
+
+  - 보통 key는 string이 아닌 symbol이다
+  - key가 없을 시 nil이 리턴
+
+- Block과 헷갈리지 말 것
 
 
-- Double quote
 
+## 참고 주소
+
+### 알아두면 도움이 되는 55가지 루비 기법
+
+https://gist.github.com/nacyot/7624036
