@@ -145,7 +145,7 @@ puts result #50
   end
   ```
 
-- return 키워드 선택적으로 사용 가능
+- ##### return 
 
   ```ruby
   # <ex1>
@@ -155,6 +155,7 @@ puts result #50
   add 1,2  #3
   
   # <ex2>
+  # return이 없는 경우 마지만 연산 값 자동 return
   def add2(a,b)
       a+b
   end
@@ -170,3 +171,129 @@ puts result #50
   ```
 
   
+
+- '?' 사용 및 argument사용
+
+  ```ruby
+  def can_divide_by?(num)
+  end
+  
+  #삼항 연산자 사용
+  #: 왼쪽 조건문 true, 오른쪽 false
+  def factorial(n)
+      n == 0 ? 1 : n*factorial(n-1)
+  end
+  factorial(5) #120
+  factorial # 호출 시 argument가 없을 경우 ArgumentError
+  
+  #default로 n의 값 정의
+  def factorial_default(n=5)
+      n == 0 ? 1 : n*factorial(n-1)
+  end
+  factorial_default #120
+  ```
+
+- 스플랫 (잘 사용은 안함)
+
+  
+
+- ##### Block : {} or  do...end
+
+  ```ruby
+  3.times {puts "hello"}
+  
+  3.times do |asdf|
+      puts asdf
+  end
+  #0
+  #1
+  #2
+  # => 3
+  
+  # implicit
+  def isblock
+      return "No block" unless block_given?
+      yield # block안에 있는 내용을 가리키게 된다.
+  end
+  isblock {puts "bb"}
+  
+  # explicit
+  def isblock(&block)
+      return "No block" if block.nil?
+      block.call
+  end
+  ```
+
+  ​	
+
+- 파일 읽기, 쓰기
+
+  ```ruby
+  # <ex1>
+  File.foreach('test.txt') do |line|
+      puts line
+      p line
+      p line.chomp
+      p line.split 
+  end
+  
+  # exception ex1
+  begin
+      File.foreach('') do |line|
+          puts line.chomp
+  end
+  
+  rescue
+  end
+  
+  # exception ex2
+  if File.exist? ''
+      File.foreach('') do |line|
+          puts line.chomp
+  	end
+  end
+  ```
+
+
+
+- ENV (OS 환경변수)
+
+  ```ruby
+  set # local path 등에 대한 설명을 출력
+  ```
+
+
+
+### 2. String
+
+- Single quote vs Double quote
+
+  ```ruby
+  # single quote
+  a = 'hello everyone\n welcome'
+  puts a #hello everyone\\n welcome
+  
+  # double quote
+  b = "hello everyone\nwelcome"
+  puts b
+  #hello everyone
+  #welcome
+  
+  
+  name = "hojin"
+  puts '이 글 쓴 사람의 이름은 #{name}입니다.'
+  #이 글 쓴 사람의 이름은 #{name}입니다.
+  puts "이 글 쓴 사람의 이름은 #{name}입니다."
+  #이 글 쓴 사람의 이름은 hojin입니다.
+  ```
+
+  
+
+
+
+
+
+
+
+- Double quote
+
