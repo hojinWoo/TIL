@@ -311,6 +311,11 @@ end
   #이 글 쓴 사람의 이름은 #{name}입니다.
   puts "이 글 쓴 사람의 이름은 #{name}입니다."
   #이 글 쓴 사람의 이름은 hojin입니다.
+  
+  # if you want append string use '<<'
+  str = "poo"
+  str << "ho"
+  puts str "pooho"
   ```
 
 - #### ! 사용
