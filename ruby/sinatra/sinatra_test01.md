@@ -1,4 +1,4 @@
-## Sinatra
+## Sinatra 01 
 
 시나트라 intro (by korean)
 
@@ -6,11 +6,19 @@ http://sinatrarb.com/intro-ko.html
 
 
 
+##### Version
+
+- `ruby : 2.4.0`
+
+
+
 ### Sinatra Setting
 
 ```bash
+# 파일 저장할 폴더
 $ mkdir sinatra-test
 $ cd sinatra-test/
+# 루비 코드 작성할 파일
 $ touch app.rb
 $ gem install sinatra
 
