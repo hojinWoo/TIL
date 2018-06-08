@@ -4,6 +4,8 @@ ruby : 2.4.0
 
 cf) 멋사는 코드 아카데미를 적극 추천한다. 
 
+https://github.com/connectediot
+
 (기본 구문 및 내용 다시 참고하려면 code academy 다시 볼 것)
 
 
@@ -398,6 +400,10 @@ end
   - key가 없을 시 nil이 리턴
 
 - Block과 헷갈리지 말 것
+
+
+
+- Hash에서는 'sample' method가 없으므로 array를 이용해서 key를 sample로 random 해야 한다.
 
 
 
