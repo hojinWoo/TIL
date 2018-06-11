@@ -157,3 +157,19 @@ get '/opggresult' do
 end
 ```
 
+
+
+#### CSV document
+
+`http://ruby-doc.org/stdlib-2.0.0/libdoc/csv/rdoc/CSV.html`
+
+```ruby
+get '/oplog' do
+    @log = []
+    CSV.foreach('dpgg.csv') do |row|
+        @low << row
+    end
+    erb :oplog
+end
+```
+

@@ -51,7 +51,7 @@ programming language: 시키기 위해 사용
 
 ##### bash shell에서 실행하기
 
-```
+```bash
 # rubby command 실행하기
 $ irb 
 
