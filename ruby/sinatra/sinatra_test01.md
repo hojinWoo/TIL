@@ -23,7 +23,7 @@ $ touch app.rb
 $ gem install sinatra
 
 # IP binding(외부 접속 가능)
-$ ruby app.rb -0 $IP
+$ ruby app.rb -o $IP
 
 $ $IP
 $ $PORT

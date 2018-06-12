@@ -161,13 +161,15 @@ end
 
 #### CSV document
 
+DB가 없을 경우 간단히.. ORM에 대한 공부도 필요
+
 `http://ruby-doc.org/stdlib-2.0.0/libdoc/csv/rdoc/CSV.html`
 
 ```ruby
 get '/oplog' do
     @log = []
     CSV.foreach('dpgg.csv') do |row|
-        @low << row
+        @log << row
     end
     erb :oplog
 end
