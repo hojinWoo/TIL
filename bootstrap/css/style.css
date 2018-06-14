@@ -1,0 +1,22 @@
+.red{
+  color:red;
+}
+
+h1{
+  color:red;
+}
+
+/* tag를 직접적으로 지정해도 class가 우선순위가 더 높다 */
+/* p{
+  color:red;
+} */
+
+/* use id
+id가 class보다 우선순위가 높다 */
+#red{
+  color:red;
+}
+
+.blue{
+
+}

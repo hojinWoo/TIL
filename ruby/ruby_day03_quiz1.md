@@ -6,6 +6,7 @@
 
    - ruby는 Tdd방식에 최적화 되어있음
    - Rails 할 때 더 자주 사용하게 됨.
+   - 시간 체크도 된다.
 
   ```ruby
   # test.rb
@@ -96,7 +97,19 @@
   # 예) n = 10
   # => 4
   def solution(n)
-  # 여기에 코드를 입력
+  	#Prime.each(n).count
+      
+      primes = (2..n).to_a
+      #primes = [2,3,4,5,...,n]
+      (2..n).each do |i|
+      	(2...i).each do |j|
+              if(i%j==0)
+                  primes.delete(i)
+                  break
+              end
+          end
+      end
+      return primes.length
   end
   ```
 
@@ -108,7 +121,8 @@
   # 예) n = 12 
   # => 28
   def solution(n)
-      # 여기에 코드를 입력
+      # Array
+  	(1..n).select{|div| n % div==0}.sum
   end
   ```
 ### String

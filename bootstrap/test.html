@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!--link:css-->
+  <link rel="stylesheet" href = "css/style.css" />
+
+  <style>
+    .skyblue{
+      color:skyblue;
+    }
+  </style>
+</head>
+<body>
+  <!-- 선택자:
+  우선순위는 id > class > tag 순서
+  1) 태그 선택 tag
+  2) class 선택 .class가
+  3) id 선택 - #id; 문서 내에 한 개만 있어야 한다. -->
+
+  <h1>html/css실습</h1>
+  <!-- inline -->
+  <p style="color:blue">안녕, 파란색</p>
+  <!-- file to link -->
+  <p class="red">안녕, 빨간색</p>
+  <!-- use style tag -->
+  <p class="skyblue">안녕, 하늘색</p>
+  <!-- use id, id is unique -->
+  <p id = "red" class="skyblue">안녕, id야 </p>
+  <!-- div : 영역만 잡아주는 tag -->
+  <div class="red">
+    빨간색!
+  </div>
+  <div class="blue">
+    파란색~~
+  </div>
+</body>
+</html>
