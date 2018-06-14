@@ -30,12 +30,35 @@
   <p class="skyblue">안녕, 하늘색</p>
   <!-- use id, id is unique -->
   <p id = "red" class="skyblue">안녕, id야 </p>
-  <!-- div : 영역만 잡아주는 tag -->
+
+  <!-- div : 영역만 잡아주는 tag, 높이의 default는 0 -->
   <div class="red">
     빨간색!
   </div>
-  <div class="blue">
+  <div class="blue right">
     파란색~~
+  </div>
+  <div class="red f-left">
+    빨간색!
+  </div>
+  <div class="blue f-right">
+    파란색~~
+  </div>
+
+  <!-- absolute : 부모의 영역을 침범할 수 있음 -->
+
+  <!-- alt : 이미지가 깨질 때 대안 -->
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXrMvfEV-w-us54Wpu1XXyHH1Ij8-o9BOvn4iaPL7Z5Dj-eegG" alt="sana"/>
+
+  <!-- iframe은 다른 사람의 서비스를 가져오는 것, 크롤링 할 때 어려움..
+      iframe은 원본 사이트의 주소로 가서 크롤링을 해야 한다 'copy selector'가 잘 안된다.-->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dPyPERq5U78" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <!-- dom structure -->
+  <div class="1">
+    <div class="2">
+    </div>
+    <div class="3">
+    </div>
   </div>
 </body>
 </html>

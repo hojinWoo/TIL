@@ -17,6 +17,54 @@ id가 class보다 우선순위가 높다 */
   color:red;
 }
 
-.blue{
+/* .red보다 우선순위가 조금 더 높다 */
+div.red{
+  height:30px;
+  width:100px;
+  background-color: red;
+  color:white;
+}
 
+div.blue{
+  height:30px;
+  width:100px;
+  background-color: blue;
+  color:purple;
+}
+
+/* 우선순위 최상위 */
+.white{
+  color:white!important;
+}
+
+
+
+/* 오른쪽 정렬 */
+.right{
+  margin-left: auto;
+}
+/* 왼쪽 정렬 */
+.left{
+  margin-right: : auto;
+}
+/* 가운데 정렬 */
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 뒤에 있는 margin이 사라짐 .. 그 사이로 들어갈 수 있다 */
+.f-left{
+  float:left;
+}
+.f-right{
+  float:right;
+}
+.col-3, .col-4, .col-6, .col-8, .col-12{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid rgba(86,61,124,.2);
+
+  text-align: center;
 }
