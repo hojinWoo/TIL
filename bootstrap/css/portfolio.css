@@ -1,0 +1,28 @@
+#header{
+  height: 500px;
+  background-image: url("https://pbs.twimg.com/media/DD-2EoSUwAE3e3B.jpg");
+  ba
+  background-size: cover;
+}
+
+.header_text{
+  height: 300px;
+}
+.about_head{
+  height: 400px;
+}
+
+
+hr{
+  width:60px;
+  border-top:3px solid rgba(217, 52, 205,0.5);
+}
+#about{
+  height:400px;
+  background-color: #4591e4;
+}
+
+.hr2{
+  width:60px;
+  border-top:3px solid rgba(81, 189, 55, 0.5)
+}
