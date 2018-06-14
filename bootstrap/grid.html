@@ -49,10 +49,32 @@
       <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
     </div>
 
-    <!--offset : 가운데 정렬 및 정렬 가능-->
+    <!--offset : 왼쪽에 공간을 주고 차지-->
     <div class="row">
       <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
     </div>
+
+    <!-- EX -->
+    <!-- 1: col 2개, sm:3개, md:4개 -->
+    <div class="row">
+      <!-- div.col-6.col-sm-4.col-md-3*4 -->
+      <div class="col-6 col-sm-4 col-md-3"></div>
+      <div class="col-6 col-sm-4 col-md-3"></div>
+      <div class="col-6 col-sm-4 col-md-3"></div>
+      <div class="col-6 col-sm-4 col-md-3"></div>
+    </div>
+    <!-- 2. offset(sm): 2개, 1개 5 -->
+    <div class="row">
+      <div class="offset-sm-2 col-sm-5">2번째</div>
+    </div>
+    <!-- 3. (sm) 칸 3개, 수직/ 수평/가운데 정렬 : justify-content-center -->
+    <div class = "row align-items-center justify-content-center">
+      <div class ="col-sm-3">
+        3번째
+      </div> 
+    </div>
+
+
 
   </div>
 
