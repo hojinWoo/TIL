@@ -6,14 +6,11 @@
 }
 
 .header_text{
-  height: 300px;
-}
-.about_head{
-  height: 400px;
+  height: 500px;
 }
 
-
-hr{
+/* #header > hr : 바로 밑에 있는 아들만 */
+#header hr{
   width:60px;
   border-top:3px solid rgba(217, 52, 205,0.5);
 }
@@ -21,8 +18,21 @@ hr{
   height:400px;
   background-color: #4591e4;
 }
+.about_text{
+  height: 400px;
+}
 
-.hr2{
+
+#about > hr{
   width:60px;
   border-top:3px solid rgba(81, 189, 55, 0.5)
+}
+
+.portfolio{
+  width :100%;
+}
+
+
+.portfolio_text{
+  height: 300px;
 }

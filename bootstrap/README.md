@@ -10,17 +10,18 @@ bootstrap
 
 
 
-Atom에서 
+#### Atom 사전 설치 패키지품목
+
+없어도 상관 없음. 자신이 필요하다고 생각되는 패키지 더 설치해도 무방
+
+
 
 settings > install 
 
-emmet (html문서 시 html:5 하고 tab누르면 자동완성)
-
-autocomplete-html-entities
-
-autoclose-html
-
-css-snippets
+- emmet (html문서 시 html:5 하고 tab누르면 자동완성)
+- autocomplete-html-entities
+- autoclose-html
+- css-snippets
 
 
 
@@ -74,3 +75,9 @@ html upgrade : markup langauge를 간단하게 쓰기
 ##### Sass
 
 extension of Css
+
+
+
+index.html
+
+https://blackrockdigital.github.io/startbootstrap-creative/
