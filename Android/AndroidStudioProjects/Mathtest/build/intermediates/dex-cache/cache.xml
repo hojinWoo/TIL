@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_f15041263897112f706271cd70502e2535ffc4eb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_7d8a1d98200b4bd0b88f0f2662bced0bd77c9604\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_4af390559cb57340f011a83a8c8f3cce440ede3a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="97f8c878e5645ebc2d2e28b35117503d07710b88">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0543b6bc29fc8c92752bc78146d556af2454e2c0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_ee305736ab782b1dd1db5e3891d23b3c220f9f0f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_8f0c23313f2b89deff5acaf32d0cb5cb32ca9f0b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_35967ac6b4846a0383478c20d8c14933a78110a8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c4c1ad09044383d6b9fbf5eb46a2fc6293fc9a30">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6123fa0946da20437a6fdbdeaba43921da291e55\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,6 @@
+CHANGED,C:\Users\dnghw\AndroidStudioProjects\CallDemo\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\dnghwls7\calldemo\MainActivity$1$override.class
+CHANGED,C:\Users\dnghw\AndroidStudioProjects\CallDemo\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\dnghwls7\calldemo\MainActivity$2$override.class
+CHANGED,C:\Users\dnghw\AndroidStudioProjects\CallDemo\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\dnghwls7\calldemo\MainActivity$4$override.class
+CHANGED,C:\Users\dnghw\AndroidStudioProjects\CallDemo\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\dnghwls7\calldemo\MainActivity$3$override.class
+CHANGED,C:\Users\dnghw\AndroidStudioProjects\CallDemo\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\dnghwls7\calldemo\MainActivity$override.class
+CHANGED,C:\Users\dnghw\AndroidStudioProjects\CallDemo\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

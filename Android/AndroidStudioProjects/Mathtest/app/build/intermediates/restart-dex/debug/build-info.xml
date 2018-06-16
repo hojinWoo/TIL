@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="524435900523008"
+    token="104586438952291140" >
+
+    <task
+        name="javac"
+        duration="2348" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="468" />
+    <task
+        name="verifier"
+        duration="221" />
+
+    <artifact
+        location="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="524435900523008" >
+        <artifact
+            location="C:\Users\dnghw\AndroidStudioProjects\Mathtest\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

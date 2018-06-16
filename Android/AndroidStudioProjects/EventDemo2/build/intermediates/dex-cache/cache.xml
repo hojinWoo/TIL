@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_bfd83abfb06f0d4d80887e9e1feaab9fda2b736b.jar" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_f7de38d0f52e5b6a953991944714b8397ea33b02.jar" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e2e0b21e564d5e284d83e67a02b59f8589f7d037">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_09f8dc3be73fbd45ef4ea21645a6685afb48d603.jar" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="34b664dd00e8bbc6e03d3c856ff919b17b6121f5">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\pre-dexed\debug\instant-run_93c27811217a50cff1c5b8b87b5ba93921179502.jar" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_b828772123187d3ab6a849b88bad29d32d84d573.jar" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_35967ac6b4846a0383478c20d8c14933a78110a8.jar" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_e658baff43a35069fdfcc98d66ed7712a5a570f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\EventDemo2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_614b2b995d23952dd8c9ce761aad35bfcf6873c2.jar" />
+    </item>
+
+</items>

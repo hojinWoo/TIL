@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="7815841989838"
+    token="8245446404965550090"
+    verifier="CLASS_ADDED" >
+
+    <task
+        name="javac"
+        duration="1414" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="158" />
+    <task
+        name="verifier"
+        duration="21" />
+
+    <artifact
+        location="C:\Users\dnghw\AndroidStudioProjects\NeedThreadDemo\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+        type="DEX" />
+
+    <build timestamp="6581688331680" >
+        <artifact
+            location="C:\Users\dnghw\AndroidStudioProjects\NeedThreadDemo\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="7815841989838"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="C:\Users\dnghw\AndroidStudioProjects\NeedThreadDemo\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

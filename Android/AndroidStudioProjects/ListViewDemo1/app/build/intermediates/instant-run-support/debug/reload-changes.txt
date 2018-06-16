@@ -1,0 +1,2 @@
+CHANGED,C:\Users\dnghw\AndroidStudioProjects\ListViewDemo1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\dnghwls7\listviewdemo1\MainActivity$override.class
+CHANGED,C:\Users\dnghw\AndroidStudioProjects\ListViewDemo1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

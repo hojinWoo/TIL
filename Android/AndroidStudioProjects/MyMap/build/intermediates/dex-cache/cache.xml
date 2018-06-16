@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.4.0_e5499c1be402d65170cd749788e546f5bdf8eb9d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.4.0_942a3074ef7c06e4263064c3d730227a451a2143\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.4.0_bb324f2e7f31c3a9db4485866293e1f2120133d7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.4.0_93c30c470d3bb255d0dd110b493b284cf789d2fd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.4.0_5e4563c0cc1d22b72ea56abfd9665cbee856fdda\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.4.0_8da16ac541c2aa73f9728b75e3c7644841ec1084\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.4.0_34b548b6486e79f992a5acc150e53a9c5bf05147\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.4.0_583f3c7a20f00d3a3e244161a7524b1b7324d48d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.4.0_82838bee9fec253b433e35774ab6977a3c09bb0a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.4.0_587d49c37524348ad50566467eb9077cd6c0c820\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_e86a4ca11f7fbcf4a92a4449940c7b5b2dd7c3af\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.4.0_66b2baf68a3a4ab564bde46b9c381d5363dd4de7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_7df03c5332092c3f6cf93adab25e258e4c71b052\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_bfcbb5acb683d75f2287a34176d511259a940fec\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_35967ac6b4846a0383478c20d8c14933a78110a8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.4.0_7c483820b67e8a81ecf0b72af192ac0f8309d95b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.4.0_876a4566dd25849ff99f0bef366798d398947c6d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.4.0_4e822fd5c8b653f76d75b7a950375e6f58e0bf99\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_4cf6f0176bc31af0829c7ac8577a342890545b1b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.4.0_87bffd559c2432098b9a9ed1e8de1f7ad9ad1b65\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_86679ee0ac2fc72d31a657b72d7639fe76d631b3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.4.0_ae0c0f508ca93d41b2de162c9d27005e0146e467\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_d9a1985b876c87647b0387653f8bdcc04c5f36bc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="48fefc16bfbe4476d275c5d235bfba4b43121e42">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d196a5cacb2bea464b17299b769172a40a72e2d1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_37f2f19d0ce36548dff686159e95affabf01447b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.4.0_765e7436325e67f572b7cc18d733cf10e01c03d1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_de8b10b149f52f6461fe82a516e97aa7dc6de359\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_afb3ae384d2398c6c8ba5918c41a39c511507b49\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_68596c2e20fdbaad3ad93356aa350f8fc623fb22\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_947622a2f4d4c32a1648135a2d0f0bfcc726869e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.4.0_fd07296b555ac3c44bba7c2155c82c9d27149998\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.4.0_19522810537b312dad4f8fc83671591f492a69ff\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.4.0_92bcc2e28efdbdc11515ad81b67b8b44600d5c83\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.4.0_44dca13dc0953d7a4df972de46ec1df57483e93a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.4.0_de780e8b1b85b7fdfd3fb9f1e7aae7691db1b7d5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.4.0_6335fea52c7c9c1d1eaa466135cd6621887305d2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="078a9e698776a33cbe662eb088a72628606e66a5">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_46c01d301b96840a6344bc2733f95d23290b4416\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-contextmanager-9.4.0_b0711bbf45966adecba66f2d5a7955af5d40d993\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_38002157bf8404636807fcb324c219e09d4be09d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_fa121579e3ff240da5542f35d5acc685a9f49c08\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_f53df75a13b31a3d6b4875d274f2ecdee2b71347\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.4.0_c1a8337e7bfc39493d5bdfd2e493862d4cc6a9d9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_ced88f9d7bd7bf25c1648a088f058cfa148097a4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.4.0_be478f8252ae54eb32c14812aad4bbc699b0db84\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_f09aa9151b62e4b71fabc3ab1aa0894000e7a688\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.4.0_ad28785584d82cb1ef571d66eb246bccf854701f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.4.0_132f7e53d4028a41d86c6ee802f6ab745112829d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.4.0_726446bed3ca7cb12ea6a418940146ae1cc35943\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.4.0_52f6901fb73ff6348dbfb1af4a06ef2f535ce052\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.4.0_a1ae3d2fde6b58d9b6346137fcf996417bf9adc4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.4.0_e136bda443692974b8a5fb1fc7010aadcdbf60fb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_6afb179184899f95b0ef8ccade2db8a8d5a6d298\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_e766a3934945b21ecb3c3c71fe33bf83a4444027\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.4.0_c0e3a57a6b7825902ee9fe863f075ab59c8cfa3d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.4.0_d1b0529ff0cb2f5e6d962ca0ae8775e2ce7be300\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.4.0_763724b7058b1f10518e923c6385de1c05572515\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_a04f1f9fb18a1251fc18e19e30a4241d4e64ab61\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="C:\Users\dnghw\AndroidStudioProjects\MyMap\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.4.0_afe1d1e1fba0b2a40e8ac2d84e66fbdfc6676c5e\classes.dex" />
+    </item>
+
+</items>
