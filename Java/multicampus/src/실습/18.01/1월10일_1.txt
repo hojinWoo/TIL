@@ -1,0 +1,41 @@
+[ 실습 1 ]
+
+사용자로 부터 URL 문자열을 표준입력 받아 서버에 요청하고
+응답되는 내용을 파일에 저장하는 자바프로그램을 구현해
+봅니다.(URL 은 html과 image에 한해서 파일명까지 있는 것으로 합니다.)
+
+구현 클래스명 : ReadWeb
+저장 디렉토리 : c:\iotest\output
+
+- 디렉토리가 존재하지 않으면 생성합니다.
+- 파일을 저장할 때는 URL 문자열에 사용된 파일명으로 합니다.
+  (이미 파일이 존재하면 overwrite 하는 것으로 정합니다.)
+- 잘못된 URL 입력시에는 "URL 오류!!" 를 출력합니다.
+- 입출력하면서 오류가 발생되면 "I/O 오류!!"를 출력합니다.
+
+[ URL 예 ]
+
+http://unico2013.dothome.co.kr/r1.jpg
+http://unico2013.dothome.co.kr/r2.jpg
+http://unico2013.dothome.co.kr/r3.jpg
+http://unico2013.dothome.co.kr/r4.jpg
+http://unico2013.dothome.co.kr/r5.jpg
+http://unico2013.dothome.co.kr/r6.jpg
+https://docs.oracle.com/javase/8/docs/api/index.html 
+http://unico2013.dothome.co.kr/resweb/exam1.html
+http://static.campaign.naver.com/0/
+                 campaign/2012/04/line_sticker/img/pc/ko/brown2.png
+http://static.campaign.naver.com/0/
+                 campaign/2012/04/line_sticker/img/pc/ko/img_cony3.png
+http://static.campaign.naver.com/0/
+                campaign/2012/04/line_sticker/img/pc/ko/img_moon3.png
+
+
+
+
+
+
+
+
+
+
