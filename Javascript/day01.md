@@ -342,7 +342,7 @@
           o2.method() //1
       
       //ex 3-1). 생성자에서 사용되는 this
-      //다른 언어처럼 class로 만드는 것은 (최신 버전에서는 가능은 하나) 안 쓰고 함수를 만든다
+      //다른 언어처럼 class로 만드는 것은 (2015년 ES6 이후 최신 버전에서는 가능은 하나) 안 쓰고 함수를 만든다
       // 생성자 함수 (class와 같은 역할)
       function Person(name){
           // this는 생성된 객체를 의미.
@@ -514,4 +514,51 @@
       }// 0, 20, 40, 60, ... 180
       ```
 
-      
+   10. ##### prototype(상속, class 변수를 정의하는 것과 같은 역할)
+
+       ```javascript
+       function Person(){
+           this.purpose = "happiness";
+       }
+       function Adult(){
+           this.age = "Higher than 20"
+           this.__proto__ = new Person();
+       }
+       function Child(){
+           this.age = "lower than 20"
+       }
+       Child.prototype = new Person();
+       var a1 = new Adult();
+       a1.purpose; //happiness
+       
+       var c1 = new Child();
+       c1.purpose; //happiness
+       
+       var p1 = new Person();
+       var p2 = new Person();
+       
+       Person.prototype.name = "Name1"
+       
+       p1.name // Name1
+       p2.name // Name2
+       ```
+
+       1. prototype을 통해 상속을 구현할 수 있다.
+
+          ```javascript
+          Child.prototype = new Parent();
+          var c1 = new Child();
+          var p1 = new Parent();
+          c1.purpose == p1.purpose;
+          ```
+
+       2. prototype을 통해 method와 property을 객체 간에 공유할 수 있다.
+
+          ```javascript
+          Child.prototype.name = "NA";
+          var c1 = new Child();
+          var c2 = new Child();
+          c1.name == c2.name;
+          ```
+
+          
