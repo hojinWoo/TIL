@@ -1,6 +1,6 @@
-# Javascript
+# Javascript day01
 
-## 자료형
+### 자료형
 
 1. 자료형
 
