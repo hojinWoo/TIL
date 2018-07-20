@@ -28,7 +28,7 @@ $ git status
 #	a.txt
 #	b.txt
 $ git add a.txt
-$ git status
+$ git status # 마지막 커밋 이후 변경 상황을 옮길 수 있다.
 
 $ git commit -m "add a.txt"
 
@@ -58,9 +58,8 @@ $ git checkout HASH_CODE # 해당 해시코드를 가진 commit 상태로 감
 $ git checkout master    # master 상태로 다시 갈 수 있음
 
 # master에서 merge 하기 전에 stash
-$ git stash -all #stash에 모든 것 올려놓기(커밋하지 않고 임시보관)
+$ git stash --all #stash에 모든 것 올려놓기(커밋하지 않고 임시보관)
 $ git stash pop  #stash 내용을 apply+drop
-
 ```
 
 
@@ -95,7 +94,7 @@ $ git stash pop  #stash 내용을 apply+drop
 
 
 ```bash
-$ git log
+$ git log #commit 한 목록을 볼 수 있다.
 #입력 했을 시 'HEAD -> master'와 'origin/master'
 ```
 
@@ -147,5 +146,19 @@ $ git branch -v  # 각 branch에서 최근 commit을 볼 수 있다.
 
 ```bash
 $ git rebase master #
+```
+
+
+
+#### branch clone하기 
+
+```bash
+# github에서 master를 clone한 후에 기존에 있던 다른 branch(dev)를 가져오기 위해서는
+# 새로 branch를 한 개 만든 후에 다음 명령어 입력하기
+$ git branch temp 		#(master)
+$ git checkout temp 	#(temp)
+$ git pull origin dev 	#(temp)
+
+# 충돌이 나는 경우 수정하거나 직접 ZIP파일을 다운로드하기
 ```
 
