@@ -10,7 +10,11 @@
 > port 문제로 Lightsail을 활용하는 법을 통하여(웹 상에서 ssh 접근 가능) 실습을 하도록 하며, 첫달 무료 이후는 과금되므로 유의한다.
 > 반드시 [가격 정책](https://aws.amazon.com/ko/lightsail/pricing/) 확인!
 
+
+
 ### 1. 본인 프로젝트 Github에 업로드
+
+
 
 ### 2. Lightsail 서버 
 **서울 리전으로 진행**
@@ -23,7 +27,7 @@
 #### 2.2. 프로젝트 가져오기
 본인의 프로젝트를 해당 인스턴스로 옮긴다.
 
-```console
+```bash
  $ cd ~
  $ git clone url
 ```
@@ -33,7 +37,7 @@
 > Vagrant 환경에서 진행한 것과 동일하게 ruby 버전을 관리할 수 있는 rbenv와 이와 관련된 기본 프로그램을 설치하는 것.
 
 shell script는 [zzulu github](https://github.com/zzulu/yay-you-are-on-aws.git)에서 제공
-```
+```bash
 $ git clone https://github.com/zzulu/yay-you-are-on-aws.git
 $ cd ~/yay-you-are-on-aws
 $ sh ./scripts/rbenv.sh
@@ -70,13 +74,13 @@ echo 'gem: --no-document' > ~/.gemrc
 
 ##### 2.3.2. shell 새로고침
 shell 변경사항을 반경하기 위해 shell을 새로고침 
-```
+```bash
 $ exec $SHELL
 ```
 
 ##### 2.3.3. Ruby 설치 및 bundler 설치
 앞선 `2.2.2.`에서 설치한 rbenv를 통해 ruby를 설치한다.
-```
+```bash
 $ rbenv install 2.3.5
 $ rbenv global 2.3.5
 $ gem install bundler
@@ -84,8 +88,8 @@ $ rbenv rehash
 ```
 
 ##### 2.3.4. Rails 설치
-```
-gem install rails -v 4.2.10
+```bash
+$ gem install rails -v 4.2.10
 ```
 
 
@@ -98,7 +102,7 @@ gem install rails -v 4.2.10
 
 ##### 2.4.1 Ngnix 설치
 설치를 위해 쉘 스크립트를 실행
-```
+```bash
 $ sh ./scripts/nginx.sh
 ```
 **아래의 명령어는 상단의 shell script를 활용하여 설치되므로 입력하지 말것**
@@ -120,19 +124,34 @@ sudo apt-get install -y nginx-extras passenger
 ```
 
 ##### 2.4.2. Ngninx 설정하기
-passenger 설정파일 열어 수정하기
-``` 
+1. passenger 설정파일 열어 수정하기
+
+``` bash
 $ sudo vi /etc/nginx/passenger.conf
 ```
-```
+```ruby
+# 2번째 줄 삭제 및 수정
 passenger_ruby /home/ubuntu/.rbenv/shims/ruby;
 ```
 
-nginx에서 `passenger.conf` 포함하기 (주석해제)
+2. nginx에서 `passenger.conf` 포함하기 (주석해제)
+
+```bash
+$ sudo vi /etc/nginx/nginx.conf
+```
+
 ```
 include /etc/nginx/passenger.conf;
 ```
-* tip: vim에서 `set nu`를 통해 라인 수를 확인하면, 63번째 줄에 있다. 
+>  tip: vim에서 `set nu`를 통해 라인 수를 확인하면, 63번째 줄에 있다. 
+
+3. nginx 추가 설정
+
+```bash
+$ sudo vi /etc/nginx/sites-enabled/default
+```
+
+아래의 부분 찾아서 수정하기
 
 
 ```
@@ -147,7 +166,8 @@ server {
         server_name         example.com;
         passenger_enabled   on;
         rails_env           production;
-        root                /home/ubuntu/fake_insta/public;
+        root                /home/ubuntu/AllRecover/public;  #public은 붙이기
+        							 ##AllRecover대신 각자의 가져온 github이름 쓰기
 
         ## Comment the following block
         # location / {
@@ -158,14 +178,21 @@ server {
 }
 ```
 
-* tip: 36, 39번째 줄 주석처리 41~44 추가, 46~50 주석
+> tip: 36, 39번째 줄 주석처리 41 ~ 44 추가, 46 ~ 50 주석처리
 
 설정 파일 편집이 완료되었으면 작성이 잘 되었는지 테스트하기 위하여 아래의 명령어를 입력한다.
-```
+```bash
 $ sudo nginx -t
 ```
+> nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+>
+> nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+
+
 만약 문제가 없다면, 아래의 명령어를 입력하여 Nginx를 실행.
-```
+
+```bash
 $ sudo service nginx start
 ```
 
@@ -173,14 +200,14 @@ $ sudo service nginx start
 
 가져온 프로젝트 폴더 안으로 이동한다.
 
-```console
+```bash
 $ cd ~
-$ cd fake_insta
+$ cd AllRecover
 ```
 
 gem 파일들을 설치한다.
 
-```console
+```bash
 $ bundle install
 ```
 
@@ -217,20 +244,30 @@ $ RAILS_ENV=production rake db:migrate
 production 환경에서는 precompile된 assets들을 사용하기 때문에 precompile된 파일들을 따로 생성해주어야 한다. 아래의 명령어로 생성을 한다.
 자세한 내용은 레일즈 가이드 aseet-pipeline 참고
 
-```console
+```bash
 $ RAILS_ENV=production rake assets:precompile
 ```
 
+> **procompile이 오류가 나서 다시 하게 될 경우**
+>
+> $ RAILS_ENV=production rake assets:clobber
+>
+> $ RAILS_ENV=production rake assets:clear
+
 아래의 명령어로 프로젝트를 refresh 한다.
 
-```console
+```bash
 $ touch tmp/restart.txt
 ```
 
 Lightsail의 IP 주소를 브라우저 주소창에 입력하여 사이트에 접속이 되는지 확인한다.
 
 
+
+------
+
 ## [AWS RDS](https://aws.amazon.com/ko/rds/?nc2=h_m1) 설정
+
 > DB 서버를 따로 분리하고 싶은 경우 RDS를 활용할 수 있다. 
 > RDS 역시도 EC2 인스턴스를 기반으로 운영되고 있으나, 데이터베이스 인프라를 관리하고 유지보수에 용이하게 끔 지원하는 PaaS
 > RDS 인스턴스 요금은 기본 인스턴스 크기, 데이터 스토리지, 멀티 가용영역, 데이터 전송에 따라 달라지므로 도입 이전에 고민해봐야함.
@@ -241,10 +278,11 @@ Lightsail의 IP 주소를 브라우저 주소창에 입력하여 사이트에 �
 
 ### 0. aws 서버에 mysql 설치
 앞선 설치 과정에서 mysql-server는 설치가 되지 않았으므로, 설치
-```
+```bash
 $ sudo apt-get -y install mysql-server
 ```
-----
+
+
 ### 1. DB 생성(AWS RDS 콘솔)
 **서울 리전으로 진행**
 #### 1.1. Crete Database
@@ -257,7 +295,7 @@ $ sudo apt-get -y install mysql-server
   - DB 인스턴스 클래스 db.t2.micro(확인)
 
 #### 1.3.2. 설정 
-  - DB 인스턴스 식별자 : 프로젝트명으로 _fakeinsta_
+  - DB 인스턴스 식별자 : 프로젝트명으로 _AllRecover_
   - 마스터 사용자 이름 : admin (변경가능, 추천)
   - 마스터 암호 : 암호 8자 이상
 
@@ -276,49 +314,59 @@ $ sudo apt-get -y install mysql-server
   - DB 파라미터 그룹 : default mysql5.6 (그대로) 
   - Option Group : default mysql-5-6 (그대로)
   - IAM DB 인증 사용 : 비활성화(그대로)
-  - 
+
+    
 ##### 1.4.3. 백업
   - 백업 보존 기간 : 7 days (그대로) 
   - 백업 기간 : 기본 설정 없음 (그대로)
 
 ###### 1.4.4. 모니터링
   - 확장 모니터링 : 사용 안 함(그대로) 
-  - 
+
+    
 ###### 1.4.5. 로그 내보내기(그대로)
 
 ###### 1.4.6. 유지 관리 (그대로)
   - 자동 마이너 버전 업그래이드 사용
   - 유지관리 기간 : 기본 설정 없음
-----
 
-#### 2. 파라미터 그룹 설정(UTF-8)/(AWS RDS 콘솔)
+
+### 2. 파라미터 그룹 설정(UTF-8)/(AWS RDS 콘솔)
+
 ##### 2.1. 파라미터 그룹 생성
   - 파라미터 그룹 패밀리 : mysql5.6
-  - 그룹 이름 : mysql5.6_utf8
-  - 설명 : utf8 옵션 설정
+  - 그룹 이름 : mysql56-utf8
+  - 설명 : set utf8
 ##### 2.2. 파라미터 편집
-  - `char`로 검색하여, `character_set_client` `character_set_conntection` `character_set_database` `character_set_filesystem` `character_set_results` `character_set_server` 모두 utf8
-  - `collation`으로 검색하여 `collation_connection` `collation_server` 모두 `utf8_unicode_ci`
-  - 
+  - `char`로 검색하여, `character_set_client` `character_set_conntection` `character_set_database` `character_set_filesystem` `character_set_results` `character_set_server` 모두 **`utf8`**
+  - `collation`으로 검색하여 `collation_connection` `collation_server` 모두 **`utf8_unicode_ci`**
 ##### 2.3. 변경사항 저장
-##### 2.4. 해당 인스턴트로가서 세부정보 수정하여 파라미터 그룹 변경 및 재부팅
+##### 2.4. 해당 인스턴트로가서 세부정보 수정하여 파라미터 그룹 변경 및 재부팅!!
 
-#### 3. Lightsail - RDS VPC 보안 그룹 설정(AWS EC2 콘솔 및 Lightsail 콘솔)
+
+
+### 3. Lightsail - RDS VPC 보안 그룹 설정(AWS EC2 콘솔 및 Lightsail 콘솔)
 
 ##### 3.1.1. 보안 그룹(EC2대시보드 왼쪽)
 ##### 3.1.2. 인바운드 > 편집 > 추가 > MYSQL/Aurora, TCP, 3306, 사용자 지정(_lightsail public ip_/32) 저장
 ##### 3.2.1. Lightsail 설정 > 네트워킹 > IP주소 > 방화벽 > 다른 항목 추가 > MySQL/Aurora
 
 
-#### 4. 코드 수정
+
+### 4. 코드 수정
+
+코드 수정은 local에서 수정하고 push하고 server에서는 pull로만 받는 것이 좋음
 
 ##### 4.1. Gemfile
 ```ruby
+# gem 'sqlite3' 수정
 group :development, :test do 
   gem 'sqlite3'
 end
+
+# 추가
 group :production do
-  gem 'mysql2', `~> 0.3.21'
+  gem 'mysql2', '~> 0.3.21'
 end
 ```
 ##### 4.2. config/database.yml
@@ -326,7 +374,7 @@ end
 production:
   adapter: mysql2
   encoding: utf8
-  database: 프로젝트명
+  database: **프로젝트명**
   username: <%= ENV["RDS_USERNAME"] %>
   password: <%= ENV["RDS_PASSWORD"] %>
   host: <%= ENV["RDS_HOSTNAME"] %>
@@ -346,6 +394,7 @@ production:
 ```
 $ mysql -h HOSTNAME(endpoint주소) -P 3306 -u RDSUsername(예-admin) -p
 password:
+
 mysql> exit
 ```
 
@@ -353,7 +402,7 @@ mysql> exit
 변경 이후 push 후 git pull origin master
 application.yml 환경 변수 추가
 기존의 DB TABLE을 없애고 새로 만들어 변경된 사항들을 적용한다.
-```
+```bash
 $ sudo service nginx stop
 $ bundle install
 $ RAILS_ENV=production rake db:drop
@@ -362,3 +411,10 @@ $ RAILS_ENV=production rake db:migrate
 $ touch tmp/restart.txt
 $ sudo service nginx start
 ```
+------------
+
+```bash
+# console 들어가기
+$ bundle exec rails c production
+```
+
